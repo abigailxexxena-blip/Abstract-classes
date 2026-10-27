@@ -7,4 +7,10 @@ public abstract class MedicalStaff {
         Department=Dept;
         Workinghours=hours;
     }
+    public void displayinfo(){
+        System.out.println("EmployeeID: " +EmployeeID);
+        System.out.println("Department: " +Department);
+        System.out.println("Workinghours: " +Workinghours);
+    }
+    public abstract void PatientCare();
 }
